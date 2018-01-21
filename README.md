@@ -9,6 +9,9 @@ Download at [releases page](https://github.com/HardToGuess/steam-confirmations-m
 # install dependencies
 npm install
 
+# Disable node-stats-reporter
+1. [See how](https://github.com/DoctorMcKay/node-stats-reporter#opting-out)
+
 # serve with hot reload at localhost:9080
 npm run dev
 

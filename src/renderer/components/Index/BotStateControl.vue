@@ -29,7 +29,6 @@ export default {
       this.$store.getters.bot.client.logOff()
     },
     async processConfirmations () {
-      this.$modal.show('hello-world', { config: {}, bot: this.bot })
       this.$store.dispatch('loadConfirmations')
     }
   },
